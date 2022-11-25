@@ -5,7 +5,7 @@
 class Employee:
     def __init__(self, name, monthly_salary=None, hours=None, hourly_rate=None, contracts=None, contract_rate=None, bonus=None):
         self.name = name
-        self.salary = monthly_salary
+        self.salary = monthly_salary if monthly_salary is not None else 0
         self.monthly_salary = monthly_salary
         self.bonus = bonus
         self.hours = hours
