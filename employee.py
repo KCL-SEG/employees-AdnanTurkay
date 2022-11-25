@@ -25,7 +25,7 @@ class Employee:
         if self.hours is not None:
             output += f" a contract of {self.hours} hours at {self.hourly_rate}/hour"
         if self.contracts is not None:
-            output += f" and receives a commission for {self.contracts} contracts at {self.contract_rate}/contract"
+            output += f" and receives a commission for {self.contracts} contract(s) at {self.contract_rate}/contract"
         if self.bonus is not None:
             output += f" and receives a bonus commission of {self.bonus}"
 
